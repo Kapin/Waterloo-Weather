@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Polling Options">
+		<CheckBoxPreference
+			android:title="Update Automatically"
+			android:defaultValue="false"
+			android:summary="Allows automatic updates to be polled every 15 minutes (NOT WORKING)"
+			android:key="updatePref"/>
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UW Weather</string>
+    <string name="update">Update</string>
+    <string name="settings">Settings</string>
+    <string name="title">University of Waterloo</string>
+</resources>

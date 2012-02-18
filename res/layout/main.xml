@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" 
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent">
+	<TextView android:textSize="25sp" 
+    	android:text="@string/title" 
+    	android:id="@+id/title" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:layout_alignParentLeft="true">
+    </TextView>	  
+    <TextView android:text="TEMP time                             " 
+    	android:id="@+id/update" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="fill_parent" 
+    	android:layout_below="@+id/title" 
+    	android:layout_alignLeft="@+id/title" 
+    	android:layout_alignRight="@+id/title" 
+    	android:layout_centerHorizontal="true"
+    	android:textSize="12sp">
+    </TextView>
+    <TextView android:id="@+id/temp"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:textSize="40sp" 
+    	android:layout_alignParentLeft="true"
+    	android:layout_below="@+id/update">
+    </TextView>
+    <TextView android:id="@+id/humidity" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:text="TEMP humidity" 
+    	android:layout_below="@+id/temp"
+    	android:layout_alignParentLeft="true">
+    </TextView>
+    <TextView android:text="TEMP precip" 
+    	android:id="@+id/precip1" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="fill_parent"
+    	android:layout_below="@+id/humidity" 
+    	android:layout_alignLeft="@+id/humidity">
+    </TextView>
+    <TextView android:id="@+id/precip2" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:text="TEMP precip" 
+    	android:layout_below="@+id/precip1" 
+    	android:layout_alignLeft="@+id/precip1" 
+    	android:layout_alignRight="@+id/precip1">
+    </TextView>
+    <TextView android:id="@+id/pressure" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:text="TEMP pressure" 
+    	android:layout_below="@+id/precip2" 
+    	android:layout_alignLeft="@+id/precip2" 
+    	android:layout_alignRight="@+id/precip2">
+    </TextView>
+    <TextView android:id="@+id/wind" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+    	android:text="TEMP wind" 
+    	android:layout_below="@+id/pressure" 
+    	android:layout_alignLeft="@+id/pressure" 
+    	android:layout_alignRight="@+id/pressure">
+    </TextView>
+</RelativeLayout>
